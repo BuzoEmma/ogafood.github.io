@@ -1,0 +1,612 @@
+/*...........................................*/
+/*BASIC SET UP*/
+/*............................................*/
+
+/*
+*{
+    box-sizing:border-box;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 0;
+*/
+}
+
+
+html{
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: white;   
+
+}
+
+
+/*...........................................*/
+/*COMPONENT*/
+/*............................................*/
+
+
+
+
+header {
+    background-image: url(hero.jpg);
+    height: 80vh;
+    background-position:center;
+    background-size: cover;
+}
+
+   
+.main-man {
+    position: absolute;
+    width: 1140px;
+    text-align: center;
+    margin-top:15%;
+    margin-left: 15%;  
+    text-align: justify;
+     
+}
+
+/*...........................................*/
+/*REUSEABlECOMPONENT */
+/*...........................................*/
+
+
+h1{
+    color: white;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom:0;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 170%;
+    font-weight:100;
+    word-spacing: 1px;
+    
+    
+}
+
+h2:after{
+    display: block;
+    background-color: #f5cb94;
+    height: 2.5px;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+} 
+
+h3{
+    margin-block-start:0em;
+    margin-block-end: 0.2em;
+   
+}
+
+.hh3 {
+    margin-top: 8px;
+    font-family:new time;
+}
+
+
+.column{
+    float: left;
+    width: 20%;
+    text-align:justify-all;
+    padding: 1.5%; 
+    
+}
+
+
+section {
+    padding: 30px 0;
+}
+/*.............................*/
+/*PARAGRAPH*/
+/*.............................*/
+
+.long-copy {
+    line-height: 145%;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 88%;
+    line-height: 120%
+    font-family: sans-serif;      
+}
+
+.column p{
+    font-size: 88%;
+    line-height: 120%;
+    margin-bottom: 40px;
+        
+}
+
+
+/*.............................*/
+/*ICON*/
+/*.............................*/
+
+
+.icon-big{
+    display: block;
+    font-size: 200%;
+    color: #e67e22;
+    margin-bottom: 5px;
+}
+
+.icon-small{
+    display: inline-block ;
+    font-size: 120%;
+    color: #e67e22;
+    width: 30px;
+    text-align: center;
+    line-height:100%;
+    vertical-align: middle;
+}
+
+
+/*...........................................*/
+/*BOTTON AND lINKS*/
+/*............................................*/
+
+
+.btn:link,
+.btn:visited
+{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 200;
+    text-decoration: none;
+    margin-top: 2;
+    color: #fff;
+    border-radius: 500px;
+    transition: color 0.2s, border 0.2s, background 0.2s;
+        
+}
+
+.btn-full:link,
+.btn-full:visited{
+    
+    background-color: blueviolet;
+    border: 1px solid #dae044;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    
+    background-color: blueviolet;
+    border: 1px solid #dae044;
+}
+
+.btn-full:hover
+.btn-ghost:active
+
+{
+    background-color: bisque;
+    
+}
+
+
+.btn-full:hover,
+.btn-full:active{
+    
+    border: 1px solid #dae044;
+    background-color: rgba(128, 70, 121, 0.79);
+    border: 1px solid #000;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    
+  
+    border: 1px solid #dae044;
+    background-color: rgba(128, 70, 121, 0.79);
+    border: 1px solid #000;
+}
+
+
+
+.twitter:link,
+.twitter:visited{
+    color:#802fcb;
+    text-decoration: none;
+    border-bottom: 1.5px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom o.2s color o.2s;
+}
+
+
+.twitter:hover,
+.twitter:active{
+    color: #555;
+    border-bottom: solid transparent;
+}
+
+/*...........................................*/
+/*lOGO*/
+/*............................................*/
+
+
+.logo {
+    height: 100px;
+    float: left;
+    margin-left: 15%;
+    margin-top:20px; 
+        
+    
+/*...........................................*/
+/*NAVGATION*/
+/*............................................*/
+
+}
+
+.main-nav {
+    list-style: none;
+    float: right;
+    
+        
+}
+
+.main-nav li{
+    display: inline-block;
+    margin: 5px;
+    margin-top: 20px;
+    
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding-bottom: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition:  border-bottom o.2s;
+   
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22; 
+} 
+
+    
+
+
+/*...........................................*/
+/*MEAl*/
+/*............................................*/
+.section-meal{
+    padding: 0px;
+    margin-bottom:55%;
+    margin-top: 15%;
+
+}
+.meal-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meal-showcase li{
+    display:block;
+    float:left;
+    width: 25%;
+}
+.meal-photo{ 
+    width: 100%;
+    margin:0;
+    overflow:hidden;
+    background-color: black;
+}
+
+.meal-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height:auto;
+    transform: scale(1.15);
+    transition: transform 0.5s; opacity: o.5s; 
+        
+}
+
+.meal-photo img:hover{
+    transform: scale(1.3);
+    opacity: 1;
+    
+}
+
+
+/*...........................................*/
+/*SECTION-STEP*/
+/*............................................*/
+
+
+.col-span:first-child{
+    position: absolute;
+    padding-left: 15%;
+    margin-top: 20px;
+        
+  
+}
+
+.col-span:last-child{
+    padding-left: 40%;
+    float: left; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+        
+    
+}
+.app-screen {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.section-step {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+}
+
+.works-step {
+    margin-bottom: 10px; 
+}
+
+.works-step div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 80%;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin-right: 20px;
+    font-size: 100%;
+    
+}
+
+.iphone {
+    height: 70px;
+    margin-top: 30px;
+    width: auto;
+    
+ 
+}
+
+.android {
+    height: 50px;
+    margin-top: 40px; 
+    margin-bottom: 10px;
+    width: auto;
+   
+}
+
+
+
+/*...........................................*/
+/*SECTION-CITIES*/
+/*............................................*/
+
+.roww {
+   
+    width:1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.row2 {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%; 
+}
+.column-big1 {
+    float: right;
+    width: 20%;
+    height: 10px;
+    margin-right: 50px;
+}
+.column-big2 {
+    float: right;
+    width: 20%;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+
+}
+.column-big3 {
+    float: left;
+    width: 20%;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    
+}
+.column-big4 {
+float: left;
+    width: 20%;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+.roww img{
+    width: 100%;
+   
+}
+
+
+.city-features {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+
+
+/*.............................*/
+/*SECTION-TESTIMONY*/
+/*.............................*/
+
+
+
+.colum5 {
+    width:28.071%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    text-align:justify;
+    background-color: antiquewhite;
+    position: relative;
+    
+        
+   
+}
+
+.section-testimony {
+    margin-top: 300px;
+    background-color: antiquewhite;
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+blockquot:before {
+    content: '"';
+    font-size: 400%;   
+    position: absolute;
+    top: 11px;
+    left: -25;
+}
+
+
+blockquot {
+    padding: 2%;
+    font-style:normal;
+    line-height: 145%;
+    font-family:serif;
+    display: block;
+    position: relative;
+}
+
+cite {
+    font-size: 80%;
+    margin-top: 25%;
+    display: block;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle; 
+}
+
+
+/*.............................*/
+/*SECTION-FEATURES*/
+/*.............................*/
+
+.section-features {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+
+
+/*.............................*/
+/*SECTION-PlANS*/
+/*.............................*/
+
+.section-plan {
+    margin-top: 400px;
+    background-color:
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colum7 {
+    float: left;
+    width: 30.33%;
+    margin-right: auto;
+    margin-left: 15;
+}
+
+.plan-box {
+    border-radius: 5%;
+    background-color: beige;
+     border: 1px solid #f71919 
+    border-radius:5%;
+    margin-left: 5%;
+    width: 88%;
+}
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+    
+}
+
+.plan-price {
+    font-size: 300%;
+    font-weight: 300;
+    margin-bottom:10px;
+    color: brown;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;    
+}
+
+.plan-price-meal{
+      font-size: 150%;
+}
+ 
+.plan-box ul li {
+     list-style: none;
+    padding: 5px 0;
+       
+}
+
+ 
+
+.meal {
+    background-color: rgba(240, 255, 255, 0.23)
+}
+
+
+
+/*.............................*/
+/*SECTION-FORM*/
+/*.............................*/
+
+.section-form {
+    margin-top: 420px;
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+        
+}
